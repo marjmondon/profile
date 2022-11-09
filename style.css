@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body{
+  background-color: rgb(220, 220, 220);
+  font-family: 'Libre Baskerville', serif;
+  color: #086788;
+  font-size: 17px;
+  line-height: 30px;
+  display: block;
+}
+
+h1, h2{
+  color: #d0749f;
+}
+
+h2{
+  font-size: 18px;
+}
+
+a{
+  color: #aaa7a8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-lemon{
+  background-color: #4e5b60;
+  color: #dfc8d6;
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(71, 70, 70, 0.1);
+}
+
+.btn-lemon:hover{
+  cursor: grab;
+}
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  margin: 20px 25px;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+  display: inline;
+}
+
+li{
+  display: inline;
+  font-size: 100px;
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  h1{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+
+  h1{
+    font-size: 18px;
+  }
+}
